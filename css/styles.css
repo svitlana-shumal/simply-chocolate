@@ -374,3 +374,151 @@ img {
       url(../img/desktop/chocolate-bg@2x.jpg);
   }
 }
+/*#endregion hero*/
+/*#region benefits*/
+
+.benefits {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.benefits-cont {
+  padding: 20px 20px;
+  background-color: #1e1823;
+}
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.benefits-item {
+}
+.benefits-icons {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 15px;
+  width: 62px;
+  height: 62px;
+  margin-bottom: 22px;
+}
+.benefits-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+.benefits-text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 28px;
+}
+@media screen and (min-width: 768px) {
+  .benefits {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .benefits-cont {
+    padding: 50px 32px;
+  }
+  .benefits-list {
+    gap: 32px;
+  }
+  .benefits-item {
+    width: calc((100% - 32px) / 2);
+  }
+}
+@media screen and (min-width: 1158px) {
+  .benefits {
+    padding-top: 72px;
+    padding-bottom: 50px;
+  }
+  .benefits-cont {
+    padding: 50px;
+  }
+  .benefits-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 70px;
+  }
+  .benefits-item {
+    width: calc((100% - 140px) - 3);
+  }
+  .benefits-text {
+    margin-right: 18px;
+  }
+}
+/*#endregion benefits*/
+/*#region ingredients*/
+.ingredients {
+}
+.container {
+}
+.cont-ingred {
+  padding: 30px 20px;
+}
+.ingredients-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  margin-left: 26px;
+  margin-right: 26px;
+}
+.ingret-span {
+  color: #fd9222;
+}
+.ingredients-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+  margin-bottom: 32px;
+}
+.ingredients-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.ingredients-item {
+  padding-top: 28px;
+  padding-left: 28px;
+  padding-right: 55px;
+  padding-bottom: 28px;
+  border-radius: 15px;
+  background: #fd9222;
+}
+.ingret-photo {
+  padding-left: 28px;
+}
+.ingredients-item-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 25px;
+}
+.item-two {
+  border: 1px solid #fd9222;
+  border-radius: 15px;
+  background: #fff;
+}
+.item-three {
+  background: #1e1823;
+}
+.title-two {
+  color: #111;
+}
+.overlow-hidden {
+  display: none;
+}
